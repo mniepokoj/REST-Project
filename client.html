@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Dana na temat koronawirusa</title>
+      <link type="text/css" rel="stylesheet" href="style.css">
+      <script src="rest.js" type="text/javascript"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+   </head>
+   <body>
+      <header><h1>Dane - Covid19</h1></header>
+      <nav>
+        <ul>
+          <li onclick="add_local_form()" id="add_local">Dodaj dane lokalnie</li>
+          <li onclick="get_local_data()" id="get_local_data">Odczytaj lokalne dane</li>
+          <li onclick="register_form()" id="register">Rejestracja</li>
+          <li onclick="login_form()" id="login">Logowanie</li>
+          <li onclick="logout()" id="logout">Wyloguj</li>
+          <li onclick="synchronize()" id="synchronize">Synchronizacja</li>
+          <li onclick="get_server_data()" id="get_server_data">Odczytaj dane z serwera</li>
+          <li onclick="draw_data()" id="draw_data">Analizuj dane</li>
+          <li onclick="documentation ()" id="documentation ">Dokumentacja</li>
+       </ul> 
+      </nav>
+      <div id="data"></div>
+      <div id="result"></div>
+
+      <footer>Mateusz Niepokój, WFiIS - Strona zrealizowana w ramach projektu z przedmiotu Techniki Internetowe.</footer>
+    </body>
+</html>
